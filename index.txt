@@ -1,6 +1,8 @@
 {
   "FOR THE GLORY",
   "RX",
+  "Sound Of Madness",
+  "Devil",
   "ITS NOT OVER",
   "SEVEN NATION ARMY",
   "BACK FROM THE DEAD",
@@ -27,4 +29,5 @@
 
 
   
+
 
