@@ -1,13 +1,13 @@
 {
   "FOR THE GLORY",
   "RX",
-  "Sound Of Madness",
-  "Devil",
   "ITS NOT OVER",
   "SEVEN NATION ARMY",
   "BACK FROM THE DEAD",
   "FINISH LINE",
   "MONSTER",
+  "Devil",
+  "Sound Of Madness",
   "CHATTAHOOCHEE",
   "PICKUP MAN",
   "I LIKE IT LOVE IT",
@@ -26,6 +26,7 @@
   "Take Back The Night",
   "Dont mine at night"
   }
+
 
 
   
