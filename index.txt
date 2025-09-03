@@ -6,8 +6,6 @@
   "BACK FROM THE DEAD",
   "FINISH LINE",
   "MONSTER",
-  "Devil",
-  "Sound Of Madness",
   "CHATTAHOOCHEE",
   "PICKUP MAN",
   "I LIKE IT LOVE IT",
@@ -30,3 +28,4 @@
 
 
   
+
