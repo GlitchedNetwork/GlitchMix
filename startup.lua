@@ -270,23 +270,6 @@ function(require, repo)
     end
     installUiLibrary()
 
-    if package == nil then
-        -- update bootloader
-        local bootloader = fs.open("/startup.lua", "w")
-        bootloader.writeLine("--don't change this line; it's for automatic software updates")
-        bootloader.writeLine("local source = (http.get(\"https://github.com/zerg960/cc/raw/refs/heads/main/startup2.lua\") or http.get(\"https://github.com/zerg960/cc/raw/refs/heads/main/startup.lua\")).readAll()")
-        bootloader.writeLine("local fn = load(\"return \" .. source, \"code\", \"t\", _G)")
-        bootloader.writeLine("setfenv(fn, _ENV)")
-        bootloader.writeLine("")
-        bootloader.writeLine("--(optional) edit this to")
-        bootloader.writeLine("--set the default playlist")
-        bootloader.writeLine("--used by the first run")
-        bootloader.writeLine("fn()(require, \"" .. repo .. "\")")
-        bootloader.close()
-        old()
-        return
-    end
-
     -- compression stuff
     local function save(name, url)
         fs.delete(name)
@@ -1745,4 +1728,5 @@ function(require, repo)
     end
 
     parallel.waitForAny(playerLoop, videoPlayer.run, ui.run)
+
 end
