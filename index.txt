@@ -46,12 +46,17 @@
   "Give Me a Break",
   "Burn The Bridge",
   "Hoist The Blocks",
-  "Haunted Rails"
+  "Haunted Rails",
+  "Blow Me Away",
+  "Bruised And Used",
+  "Heartless Shadows",
+  "Ocean's Roar"
   }
 
 
 
   
+
 
 
 
