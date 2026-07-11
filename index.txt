@@ -21,6 +21,7 @@
   "I LIKE IT LOVE IT",
   "TEQUILA MAKES HER CLOTHES FALL OFF",
   "Cowboy Capone",
+  "Revelation",
   "LASSO",
   "HOLY WATER",
   "Used To The Fall",
